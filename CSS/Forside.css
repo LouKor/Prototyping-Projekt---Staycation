@@ -1,0 +1,15 @@
+* {
+    background-origin: padding-box;
+}
+
+.overheader {
+    background-color: #01332a;
+    width: 1000%;
+    height: 200px;
+}
+
+.frontphoto {
+    height: 600px;
+    object-fit: cover;
+    object-position: center 1000%;
+}
