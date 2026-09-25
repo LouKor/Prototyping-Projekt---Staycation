@@ -1,10 +1,11 @@
 * {
     background-origin: padding-box;
+    background-color: #f6f0e9;
 }
 
 .navbar {
     background-color: #01332a;
-    width: 100%;
+    width: 1000%;
     height: 80px;
     display: flex;
     align-items: center;
@@ -12,7 +13,7 @@
 
 .hero_banner {
     width: 100%;
-    height: 313px;
+    height: 300px;
     object-fit: cover;
     object-position: center;
 }
@@ -20,4 +21,12 @@
 .hero_tekst {
     max-height: 400px;
     min-height: 200px; 
+}
+
+.footer {
+    background-color: #01332a;
+    width: 1000%;
+    height: 100px;
+    display: flex;
+    align-self: center;
 }
