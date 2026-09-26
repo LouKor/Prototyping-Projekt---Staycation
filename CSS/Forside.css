@@ -1,5 +1,8 @@
 * {
-    background-origin: padding-box;
+    
+}
+
+.body {
     background-color: #f6f0e9;
 }
 
@@ -12,16 +15,18 @@
 }
 
 .hero {
-    position: relative;
-    text-align: center;
+    height: 300px;
 }
 
 .hero_tekst {
-    position: absolute;
+    position: relative;
+    top: 50px;
     width: 100%;
     margin: 0;
-    color: #01332a;
+    color: #e8dcc6;
     font-size: 40px;
+    align-items: center;
+    text-align: center;
 }
 
 .hero_banner {
@@ -29,6 +34,16 @@
     height: 300px;
     object-fit: cover;
     object-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.quote_box {
+    float: left;
+    background-color: #b0aa68;
+    height: 40px;
+    width: 258px;
+    border-radius: 10%;
 }
 
 .populært_galleri {
@@ -61,7 +76,14 @@ object-position: center;
 .footer {
     background-color: #01332a;
     width: 1000%;
-    height: 100px;
+    height: 150px;
     display: flex;
     align-self: center;
+}
+
+.footer_Some {
+    aspect-ratio: 95/75;
+    float: right;
+    width: 95px;
+    height: 75px;
 }
