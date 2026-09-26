@@ -23,6 +23,36 @@
     min-height: 200px; 
 }
 
+.populært_galleri {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.mere_galleri_container {
+    margin: 2em 5em;
+}
+
+.aktiviteter {
+aspect-ratio: 1/1;
+width: 160px;
+height: 200px;
+object-fit: cover;
+border-radius: 15px;
+padding: 0.5em;
+
+}
+
+.cirkel_logo {
+aspect-ratio: 1/1;
+width: 96px;
+height: 96px;
+padding: 2em;
+object-position: center;
+
+}
+
+
 .footer {
     background-color: #01332a;
     width: 1000%;
