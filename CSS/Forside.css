@@ -11,6 +11,18 @@
     align-items: center;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero_tekst {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: #01332a;
+    font-size: 40px;
+}
+
 .hero_banner {
     width: 100%;
     height: 300px;
@@ -18,15 +30,14 @@
     object-position: center;
 }
 
-.hero_tekst {
-    max-height: 400px;
-    min-height: 200px; 
+.hero_tekst2 {
+    position: absolute;
 }
 
 .populært_galleri {
     width: 200px;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 .mere_galleri_container {
@@ -51,7 +62,6 @@ padding: 2em;
 object-position: center;
 
 }
-
 
 .footer {
     background-color: #01332a;
