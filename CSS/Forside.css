@@ -3,7 +3,7 @@
     background-color: #f6f0e9;
 }
 
-.navbar {
+.navbar_look {
     background-color: #01332a;
     width: 1000%;
     height: 80px;
@@ -13,12 +13,13 @@
 
 .hero {
     position: relative;
+    text-align: center;
 }
 
 .hero_tekst {
     position: absolute;
-    top: 10%;
-    left: 40%;
+    width: 100%;
+    margin: 0;
     color: #01332a;
     font-size: 40px;
 }
@@ -28,10 +29,6 @@
     height: 300px;
     object-fit: cover;
     object-position: center;
-}
-
-.hero_tekst2 {
-    position: absolute;
 }
 
 .populært_galleri {
@@ -51,16 +48,14 @@ height: 200px;
 object-fit: cover;
 border-radius: 15px;
 padding: 0.5em;
-
 }
 
 .cirkel_logo {
 aspect-ratio: 1/1;
-width: 96px;
-height: 96px;
-padding: 2em;
+width: 80px;
+height: 80px;
+padding: 1em;
 object-position: center;
-
 }
 
 .footer {
