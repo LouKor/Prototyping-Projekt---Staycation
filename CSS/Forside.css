@@ -1,5 +1,6 @@
 * {
-    
+   box-sizing: border-box;
+   margin: 0; 
 }
 
 .body {
@@ -12,6 +13,7 @@
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .hero {
@@ -36,6 +38,8 @@
     object-position: center;
     position: absolute;
     z-index: -1;
+    display: flex;
+
 }
 
 .quote_box {
@@ -46,14 +50,34 @@
     border-radius: 10%;
 }
 
+
 .populært_galleri {
     width: 200px;
     height: 200px;
     border-radius: 50px;
+    background-color: #b0aa68;
 }
 
-.mere_galleri_container {
+a {
+background-color: #01332a;
+color: #e8dcc6;
+display: inline-block;
+border-radius: 10px;
+padding: 0.8em 3em;
+margin: 1em;
+text-decoration: none;
+}
+
+a:hover {
+    background-color: #b0aa68;
+}
+
+.galleri_container {
     margin: 2em 5em;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-wrap: wrap;
 }
 
 .aktiviteter {
