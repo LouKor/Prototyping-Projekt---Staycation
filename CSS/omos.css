@@ -1,8 +1,9 @@
 * {
-    
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.body {
+body {
     background-color: #f6f0e9;
     width: 600px;
 }
@@ -34,8 +35,37 @@ margin-right: 30px;
     height: 20px;
 }
 
+.quote_box1 {
+    background-color: #01332a;
+    height: 70px;
+    width: 400px;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 
+.quote_box1 p {
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 4px;
+    padding-right: 20px;
+    margin-top: 15px;
+    color: #b0aa68;
+}
 
+.vier_nærvær {
+    width: 200px;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.local {
+width: 200px;
+height: 240px;
+border-radius: 15px;
+}
 
 
 
