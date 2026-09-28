@@ -1,3 +1,73 @@
 * {
     
 }
+
+.body {
+    background-color: #f6f0e9;
+    width: 600px;
+}
+
+.navbar_look {
+    background-color: #01332a;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_container {
+    margin-left: 50px;
+}
+
+.logo_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.icon_container {
+margin-right: 30px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+.cirkel_logo {
+aspect-ratio: 1/1;
+width: 80px;
+height: 80px;
+margin: 30px;
+margin-bottom: 50px;
+object-position: center;
+}
+
+.footer {
+    background-color: #01332a;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.footer_tekst_container p {
+    color: #e8dcc6;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.some_container {
+    margin: 25px;
+}
+
+.footer_Some {
+    width: 60px;
+    height: 60px;
+}

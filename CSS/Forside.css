@@ -65,7 +65,8 @@ margin-right: 30px;
     background-color: #01332a;
     height: 50px;
     width: 400px;
-    border-radius: 10px
+    border-radius: 30px;
+    margin-top: 20px
 }
 
 .quote_box {
@@ -139,7 +140,7 @@ a:hover {
 
 .oplev p {
 font-weight: bolder;
-font-size: x-large;
+font-size: larger;
 padding: 20px;
 padding-right: 50px;
 color: #01332a;
@@ -196,9 +197,9 @@ object-position: center;
     justify-content: space-between;
 }
 
-.footer_tekst p {
+.footer_tekst_container p {
     color: #e8dcc6;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 30px;
 }
 
@@ -207,6 +208,6 @@ object-position: center;
 }
 
 .footer_Some {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
