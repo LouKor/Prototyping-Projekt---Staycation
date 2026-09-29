@@ -22,8 +22,8 @@
 }
 
 .logo_icon {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .icon_container {
@@ -58,7 +58,6 @@ margin-right: 30px;
     position: absolute;
     z-index: -1;
     display: flex;
-
 }
 
 .hero_botton {
@@ -67,36 +66,38 @@ margin-right: 30px;
     height: 50px;
     width: 400px;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .search_tekst {
     color: #e8dcc6;
     font-size: small;
-    display: flex;
     flex-direction: row;
-    margin-left: 20px;
-    margin-right: 170px;
     margin-top: 10px;
     justify-content: space-between;
+    display: flex;
+}
+
+.search_tekst h3 {
+    margin-right: 85px;
 }
 
 .søg {
     background-color: #b0aa68;
-    display: flex;
-    flex-direction: row;
-    border-radius: 70px;
-    height: 30px;
-    width: 50px;
-    margin-left: 320px;
-    margin-bottom: 50px;
-}
-
-.søg p {
     color: #01332a;
-    margin: 5px;
-    margin-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    width: 70px;
     font-weight: bold;
+    align-items: center;
+    margin-top: 6px;
+}
+ 
+.søg:hover {
+    background-color: #e07b60;
 }
 
 .quote_box {
@@ -165,7 +166,11 @@ margin-right: 20px;
 text-decoration: none;
 }
 
-a:hover {
+.a_populært:hover {
+    background-color: #e07b60;
+}
+
+.a_mere:hover {
     background-color: #e07b60;
 }
 
@@ -204,7 +209,7 @@ color: #01332a;
     display: flex;
     justify-content: center;
     align-items: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .cirkel {
@@ -226,18 +231,25 @@ margin: 5px;
 border: 4px solid #01332a;
 }
 
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
 .a_mere {
-background-color: #01332a;
-color: #e8dcc6;
-display: inline-block;
+background-color: #b0aa68;
+color: #01332a;
 border-radius: 5px;
-padding: 0.3em 1em;
-margin-left: 20px;
-margin-right: 10px;
+justify-content: center;
 text-decoration: none;
 opacity: 0.7;
-border: 4px solid #e8dcc6;
+border: 1px solid #b0aa68; 
+position: absolute;
+margin-top: 170px;
+width: 154px;
+padding: 2px;
 }
+
 
 .cirkel_logo {
 aspect-ratio: 1/1;
