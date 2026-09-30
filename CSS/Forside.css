@@ -81,8 +81,9 @@ margin-right: 30px;
     display: flex;
 }
 
-.search_tekst h3 {
+.search_tekst h1 {
     margin-right: 85px;
+    font-size: medium;
 }
 
 .søg {
@@ -111,7 +112,7 @@ margin-right: 30px;
     margin-bottom: 10px;
 }
 
-.quote_box p {
+.quote_box h1 {
     font-size: x-large;
     font-weight: bolder;
     padding: 4px;
@@ -164,6 +165,7 @@ padding: 0.8em 3em;
 margin-left: 20px;
 margin-right: 20px;
 text-decoration: none;
+margin-top: 5px;
 }
 
 .a_populært:hover {
