@@ -35,10 +35,202 @@ margin-right: 30px;
     height: 20px;
 }
 
+.quote_box {
+    background-color: #b0aa68;
+    height: 40px;
+    width: 258px;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 
+.quote_box p {
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 4px;
+    padding-right: 20px;
+    color: #01332a;
+}
 
+.hvolris_main_billede {
+    background-color: #01332a;
+    width: 315px;
+    height: 200px;
+    color: #e8dcc6;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+}
 
+.brødtekst {
+    position: absolute;
+    margin-left: 50px;
+    color: #01332a;
+    font-weight: bold;
+}
 
+.entré {
+    position: absolute;
+    font-size: x-large;
+    color: #01332a;
+    margin-left: 420px;
+    margin-top: -400px;
+}
+
+.undertekst_entré {
+    position: absolute;
+    color: #01332a;
+    font-size: 15px;
+    margin-left: 420px;
+    margin-top: -370px;
+}
+
+.åbningstid {
+    position: absolute;
+    font-size: x-large;
+    color: #01332a;
+    margin-left: 420px;
+    margin-top: -310px;
+}
+
+.undertekst_åbningstid {
+    position: absolute;
+    color: #01332a;
+    font-size: 15px;
+    margin-left: 420px;
+    margin-top: -280px;
+}
+
+.adresse {
+    position: absolute;
+    font-size: x-large;
+    color: #01332a;
+    margin-left: 420px;
+    margin-top: -220px;
+}
+
+.undertekst_adresse {
+    position: absolute;
+    color: #01332a;
+    font-size: 15px;
+    margin-left: 420px;
+    margin-top: -190px;
+}
+.planlæg_besøg_knap {
+    background-color: #01332a;
+    color: #f6f0e9;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 135px;
+    margin-left: 100px;
+}
+ 
+.planlæg_besøg_knap:hover {
+    background-color: #B76E2E;
+}
+
+.baggrund_cirkel {
+    position: relative;
+    margin-top: -415px;
+    width: 400px;
+    height: 400px;
+    margin-left: -100px;
+    background-color: #b0aa68;
+    z-index: -1;
+    border-radius: 100%;
+}
+
+.google_maps_billede {
+width: 200px;
+height: 240px;
+display: inline-block;
+padding: 0.5em 0.5em;
+margin-left: 350px;
+margin-right: 20px;
+text-decoration: none;
+margin-top: -190px;
+}
+
+.baggrund_galleri {
+    display: flex;
+    flex-direction: row;
+    background-color: #b0aa68;
+    border-radius: 30px 0px 0px 30px;
+    margin-left: 50px;
+    flex-wrap: none;
+    width: 550px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.jernalder_hus_billede {
+    background-color: #01332a;
+    width: 300px;
+    height: 250px;
+    color: #e8dcc6;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5em 0.5em;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 25px; 
+}
+
+.mad_over_bål_billede {
+    background-color: #01332a;
+    width: 175px;
+    height: 120px;
+    color: #e8dcc6;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5em 0.5em;
+    margin-left: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 25px; 
+}
+
+.jernalder_solnedgang_billede {
+    background-color: #01332a;
+    width: 175px;
+    height: 120px;
+    color: #e8dcc6;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5em 0.5em;
+    margin-left: -195px;
+    text-decoration: none;
+    margin-top: 155px; 
+    position: static
+}
+
+.galleri_knap {
+    background-color: #01332a;
+    color: #f6f0e9;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 300px;
+}
+ 
+.galleri_knap:hover {
+    background-color: #B76E2E;
+}
 
 
 .cirkel_logo {
