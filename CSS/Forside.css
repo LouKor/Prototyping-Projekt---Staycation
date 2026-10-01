@@ -39,7 +39,7 @@ margin-right: 30px;
     height: 300px;
 }
 
-.hero_tekst {
+.hero_overskift {
     position: relative;
     top: 50px;
     width: 100%;
@@ -72,7 +72,7 @@ margin-right: 30px;
     justify-content: space-around;
 }
 
-.search_tekst {
+.hvor_hvad_tekst {
     color: #f6f0e9;
     font-size: small;
     flex-direction: row;
@@ -81,12 +81,12 @@ margin-right: 30px;
     display: flex;
 }
 
-.search_tekst h1 {
+.hvor_hvad_tekst h1 {
     margin-right: 85px;
     font-size: medium;
 }
 
-.søg {
+.søg_knap {
     background-color: #b0aa68;
     color: #01332a;
     border-radius: 20px;
@@ -97,7 +97,7 @@ margin-right: 30px;
     margin-top: 6px;
 }
  
-.søg:hover {
+.søg_knap:hover {
     background-color: #b76e2e;
 }
 
@@ -112,7 +112,7 @@ margin-right: 30px;
     margin-bottom: 10px;
 }
 
-.quote_box h1 {
+.quote_box h2 {
     font-size: x-large;
     font-weight: bolder;
     padding: 4px;
@@ -120,12 +120,12 @@ margin-right: 30px;
     color: #01332a;
 }
 
-.rette_spor {
+.intro_brødtekst {
     color: #01332a;
     font-size: 20px;
 }
 
-.p_tekst {
+.populært_overskift {
 margin: 30px;
 color: #01332a;
 font-size: xx-large;
@@ -142,7 +142,7 @@ font-weight: bold;
     width: 550px;
 }
 
-.p_galleri {
+.populært_galleri {
     background-color: #01332a;
     width: 200px;
     height: 200px;
@@ -196,9 +196,10 @@ padding-right: 50px;
 color: #01332a;
 }
 
-.mere {
+h4 {
     color: #01332a;
     font-weight: bold;
+    font-size: 28px;
 }
 .galleri_div {
     justify-content: center;
@@ -246,9 +247,10 @@ text-decoration: none;
 opacity: 0.7;
 border: 1px solid #01332a;
 position: absolute;
-margin-top: 170px;
+margin-top: 150px;
 width: 154px;
 padding: 2px;
+height: 43px;
 }
 
 
