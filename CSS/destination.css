@@ -5,6 +5,7 @@
 
 .body {
     background-color: #f6f0e9;
+    max-width: 600px;
 }
 
 .navbar_look {
@@ -492,7 +493,7 @@ h3 {
 
 .footer {
     background-color: #01332a;
-    width: 100%;
+    max-width: 600px;
     height: 150px;
     display: flex;
     align-self: center;
