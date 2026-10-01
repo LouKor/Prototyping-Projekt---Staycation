@@ -1,11 +1,11 @@
 *{
    margin: 0; 
    box-sizing: border-box;
+   max-width: 600px;
 }
 
 .body {
     background-color: #f6f0e9;
-    max-width: 500px;
 }
 
 .navbar_look {
@@ -493,7 +493,6 @@ h3 {
 
 .footer {
     background-color: #01332a;
-    max-width: 500px;
     height: 150px;
     display: flex;
     align-self: center;
