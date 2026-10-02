@@ -101,6 +101,12 @@ margin-right: 30px;
     background-color: #b76e2e;
 }
 
+.blad_ved_button {
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .quote_box {
     background-color: #b0aa68;
     height: 40px;
@@ -261,6 +267,11 @@ height: 80px;
 margin: 30px;
 margin-bottom: 50px;
 object-position: center;
+}
+
+.footer_cirkellogo h5 {
+    color: #01332a;
+    font-size: 26px;
 }
 
 .footer {
