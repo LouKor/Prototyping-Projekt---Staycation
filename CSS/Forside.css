@@ -8,6 +8,10 @@
     width: 600px;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: Helvetica, sans-serif;
+}
+
 .navbar_look {
     background-color: #01332a;
     width: 100%;
@@ -129,10 +133,11 @@ margin-right: 30px;
 .intro_brødtekst {
     color: #01332a;
     font-size: 20px;
+    margin: 20px;
 }
 
 .populært_overskift {
-margin: 30px;
+margin: 25px;
 color: #01332a;
 font-size: xx-large;
 font-weight: bold;
