@@ -105,10 +105,19 @@ margin-right: 30px;
     background-color: #b76e2e;
 }
 
-.blad_ved_button {
-    height: 50px;
-    flex-direction: row;
-    justify-content: space-around;
+.blad_ved_button_1 {
+    height: 60px;
+    margin-left: 70px;
+    margin-top: -25px;
+    position: absolute;
+}
+
+.blad_ved_button_2 {
+    height: 60px;
+    margin-left: 470px;
+    margin-top: -25px;
+    transform: scaleX(-1);
+    position: absolute;
 }
 
 .quote_box {
@@ -142,6 +151,21 @@ color: #01332a;
 font-size: xx-large;
 font-weight: bold;
 }
+
+.venstre_streg_populært {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -20px;
+    width: 170px;
+}
+
+.højre_streg_populært {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 350px;
+    width: 170px;
+}
+
 
 .populært {
     display: flex;
@@ -212,6 +236,53 @@ h4 {
     font-weight: bold;
     font-size: 28px;
 }
+
+.venstre_streg_mere {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.højre_streg_mere {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 370px;
+    width: 200px;
+}
+
+.blad_1 {
+    height: 60px;
+    margin-left: 110px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.blad_2 {
+    height: 60px;
+    margin-left: 430px;
+    margin-top: 40px;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+.blad_3 {
+    height: 60px;
+    margin-left: 110px;
+    margin-top: 440px;
+    transform: scaleX(-1);
+    position: absolute;
+    z-index: 9998;
+}
+
+.blad_4 {
+    height: 60px;
+    margin-left: 430px;
+    margin-top: 440px;
+    position: absolute;
+    z-index: 9999;
+}
+
 .galleri_div {
     justify-content: center;
     align-items: center;
@@ -264,19 +335,48 @@ padding: 2px;
 height: 43px;
 }
 
-
-.cirkel_logo {
-aspect-ratio: 1/1;
-width: 80px;
-height: 80px;
-margin: 30px;
-margin-bottom: 50px;
-object-position: center;
+.link_til_om_os_side {
+background-color: #01332a;
+color: #f6f0e9;
+display: inline-block;
+border-radius: 10px;
+padding: 0.8em 1.5em;
+margin-left: 20px;
+margin-right: 20px;
+text-decoration: none;
+margin-top: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
 }
 
-.footer_cirkellogo h5 {
-    color: #01332a;
-    font-size: 26px;
+.link_til_om_os_side:hover {
+background-color: #b76e2e;
+}
+
+
+.link_til_om_os_side {
+background-color: #01332a;
+color: #f6f0e9;
+display: inline-block;
+border-radius: 10px;
+padding: 0.8em 1.5em;
+margin-left: 20px;
+margin-right: 20px;
+text-decoration: none;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+.link_til_om_os_side:hover {
+background-color: #b76e2e;
+}
+
+.cirkel_logo {
+margin-top: 40px;
+margin-bottom: 20px;
+height: 120px;
+padding: 10px 30px 30px 30px;
 }
 
 .footer {
@@ -290,8 +390,14 @@ object-position: center;
 
 .footer_tekst_container p {
     color: #f6f0e9;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
     margin-left: 30px;
+}
+
+.footer_cirkellogo h5 {
+    color: #01332a;
+    font-size: 26px;
 }
 
 .some_container {

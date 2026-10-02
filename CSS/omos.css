@@ -67,20 +67,42 @@ margin-right: 30px;
 }
 
 h2 {
-    align-content: center;
     position: absolute;
     margin-top: -40px;
-    margin-left: 260px;
+    margin-left: 250px;
 }
 
-.blad {
+.venstre_streg_om_os {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 130px;
+}
+
+.højre_streg_om_os {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 440px;
+    width: 130px;
+}
+
+.blad_1 {
     height: 65px;
     position: relative;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
     margin-left: 160px;
     margin-top: 40px;
+}
+
+.blad_2 {
+    height: 65px;
+    position: relative;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 145px;
+    margin-top: 40px;
+    transform: scaleX(-1);
 }
 
 .vier_container {
@@ -134,6 +156,23 @@ margin: 20px
     padding: 1em;
 }
 
+.medarbejdere_h3 {
+margin-left: 200px;
+}
+
+.venstre_streg_medarbejdere {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px;
+    width: 140px;
+}
+
+.højre_streg_medarbejdere {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 440px;
+    width: 140px;
+}
 
 .med_1 {
 display: flex;
