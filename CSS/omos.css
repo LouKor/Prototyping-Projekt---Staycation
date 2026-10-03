@@ -186,7 +186,7 @@ margin-left: 200px;
     height: 65px;
     position: absolute;
     margin-left: 30px;
-    margin-top: 325px;
+    margin-top: 340px;
     transform: scaleX(-1);
 }
 
@@ -207,6 +207,15 @@ margin-left: 50px;
 margin-bottom: 20px;
 }
 
+.med_1_tekst {
+position: absolute;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+margin-left: 200px;
+margin-top: 10px;
+color: #01332a;
+}
+
 .med_2 {
 display: flex;
 flex-direction: row-reverse;
@@ -215,6 +224,15 @@ height: 180px;
 border-radius: 0px 20px 20px 0px;
 margin-right: 50px;
 margin-bottom: 20px;
+}
+
+.med_2_tekst {
+position: absolute;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+margin-right: 190px;
+margin-top: 20px;
+color: #f6f0e9;
 }
 
 .med_3 {
@@ -227,6 +245,15 @@ margin-left: 50px;
 margin-bottom: 20px;
 }
 
+.med_3_tekst {
+position: absolute;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+margin-left: 200px;
+margin-top: 10px;
+color: #01332a;
+}
+
 .med_4 {
 display: flex;
 flex-direction: row-reverse;
@@ -235,6 +262,15 @@ height: 180px;
 border-radius: 0px 20px 20px 0px;
 margin-right: 50px; 
 margin-bottom: 20px;
+}
+
+.med_4_tekst {
+position: absolute;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+margin-right: 190px;
+margin-top: 20px;
+color: #f6f0e9;
 }
 
 .medfoto_1 {
