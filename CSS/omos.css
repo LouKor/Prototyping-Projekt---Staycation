@@ -156,6 +156,13 @@ margin: 20px
     padding: 1em;
 }
 
+.blad_3 {
+    height: 65px;
+    position: relative;
+    margin-left: 480px;
+    margin-top: -50px;
+}
+
 .medarbejdere_h3 {
 margin-left: 200px;
 }
@@ -172,6 +179,22 @@ margin-left: 200px;
     margin-top: -50px;
     margin-left: 440px;
     width: 140px;
+}
+
+
+.blad_4 {
+    height: 65px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 325px;
+    transform: scaleX(-1);
+}
+
+.blad_5 {
+    height: 65px;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 725px;
 }
 
 .med_1 {

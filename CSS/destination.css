@@ -35,6 +35,13 @@ margin-right: 30px;
     height: 20px;
 }
 
+.blad_1 {
+    height: 65px;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -30px;
+}
+
 .quote_box {
     background-color: #b0aa68;
     height: 40px;
@@ -168,6 +175,14 @@ margin-right: 30px;
  
 .planlæg_besøg_knap:hover {
     background-color: #B76E2E;
+}
+
+.blad_2 {
+    height: 65px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 240px;
+    transform: scaleX(-1);
 }
 
 .baggrund_cirkel {
