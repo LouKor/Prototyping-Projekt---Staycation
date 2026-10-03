@@ -120,6 +120,21 @@ margin-right: 30px;
     position: absolute;
 }
 
+.blad_ved_button_3 {
+    height: 60px;
+    margin-left: 80px;
+    margin-top: -60px;
+    position: absolute;
+    transform: scaleX(-1);
+}
+
+.blad_ved_button_4 {
+    height: 60px;
+    margin-left: 460px;
+    margin-top: -60px;
+    position: absolute;
+}
+
 .quote_box {
     background-color: #b0aa68;
     height: 40px;
