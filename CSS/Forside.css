@@ -181,7 +181,6 @@ font-weight: bold;
     width: 170px;
 }
 
-
 .populært {
     display: flex;
     flex-direction: row;
@@ -367,7 +366,6 @@ font-size: 16px;
 .link_til_om_os_side:hover {
 background-color: #b76e2e;
 }
-
 
 .link_til_om_os_side {
 background-color: #01332a;
